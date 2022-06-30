@@ -6,14 +6,26 @@
 // console.log(matches)  
 
 //1.1
-const txt = 'He earns 4000 euro from salary per month, 10000 euro annual bonus, 5500 euro online courses per month.';
-const pattern = /\d+/g;
-const matches = txt.match(pattern);
-const sum = matches.reduce((acc,cur) => acc + cur)
-console.log(sum)
-console.log(matches)
+//*Method A
+// const txt = 'He earns 4000 euro from salary per month, 10000 euro annual bonus, 5500 euro online courses per month.';
+// // const pattern = /\d+/g;
+// // const matches = txt.match(pattern);
+// // const sum = matches.reduce((acc,cur) => + acc + + cur)
+// // console.log(sum)
+
+//*Method B
+// var sum = function (text, regex){
+//   var match;
+//   return !!(match = text.match(regex || /\d+/g)) ?
+//     match.reduce(function(acc, cur){
+//       return + acc + + cur;
+//     })
+//   : 0;
+// }
+// console.log(sum('He earns 4000 euro from salary per month, 10000 euro annual bonus, 5500 euro online courses per month.'))
 
 //1.2
+
 
 
 
@@ -36,6 +48,4 @@ console.log(matches)
 
 
 
-　　後來，沙提枯達發現一位修行人在外化緣，他心想這是個理想的目標，因為修行人 沒有親戚、沒有保護人，也不是牛，不必負責賠償。他就向這修行人投擲石頭，修行人因此喪失性命。社會大眾知道這件事情後，非常憤怒，也殺死他。由於他的惡業，他死後墮落到悲慘的惡道 (註) 中，並且要受很長時間的苦。今生，則變為人面蛇身的餓鬼，而且他的頭時時刻刻受赤紅鎯頭的錘打。
-
-　　佛陀說：「愚人的技術只會傷害自己，而沒有任何益處。」
+　　
